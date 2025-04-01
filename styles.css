@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(30, 108, 147)
+}
+
 p {
     font-family: sans-serif;
 }
@@ -16,20 +20,21 @@ h1, h2 {
 h1:hover, h2:hover {
     background-color: rgb(205, 199, 255);
 }
+
 #header {
     font-family: serif;
 }
+
 .m_right {
     float:right
 }
+
 .m_active{
     background-color:#EEEEEE
 }
+
 .m_right a:hover{
     background-color: rgb(155, 255, 255);
-}
-body{
-    background-color: rgb(30, 108, 147)
 }
 
 li {
@@ -47,10 +52,10 @@ li a {
     /* padding:14px 16px; */
     text-decoration:none
 }
-.fixed-nav-bar { 
+/* .fixed-nav-bar { 
 	position: fixed; 
     top: 0; 
     left: 0; 
     z-index: 9999; 
     width: 100%; 
-}
+} */
