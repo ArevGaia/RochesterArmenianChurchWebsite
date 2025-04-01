@@ -32,14 +32,14 @@ body{
     background-color: rgb(30, 108, 147)
 }
 
-li {
+/* li {
 	float:left;
     border-right:1px solid #000000;
     border-left:1px solid #000000;
     border-top:1px solid #000000;
     border-bottom:1px solid #000000;
     display: inline
-}
+} */
 li a {
 	display:block;
     color:#999999;
