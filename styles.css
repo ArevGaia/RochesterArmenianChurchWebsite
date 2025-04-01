@@ -1,0 +1,33 @@
+p {
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 300px;
+}
+
+h1, h2 {
+    font-family: fantasy;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 3px;
+    color: rgb(255, 255, 255)
+}
+
+h1:hover, h2:hover {
+    background-color: rgb(205, 199, 255);
+}
+#header {
+    font-family: serif;
+}
+.m_right {
+    float:right
+}
+.m_active{
+    background-color:#EEEEEE
+}
+.m_right a:hover{
+    background-color: rgb(155, 255, 255);
+}
+body{
+    background-color: rgb(30, 108, 147)
+}
