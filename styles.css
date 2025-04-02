@@ -64,10 +64,12 @@ li a {
 
 #image{
     /* float: right; */
-    position: absolute;
-    top: -1000px;
-    left: 605px;
-    width: 800px
+}
+
+column {
+    float: left;
+    position: relative;
+    display: block;
 }
 
 /* .event-details{
