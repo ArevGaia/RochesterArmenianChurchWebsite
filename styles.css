@@ -26,7 +26,8 @@ h1, h2 {
 }
 
 .m_active{
-    background-color:#EEEEEE
+    background-color:#EEEEEE;
+    color: #302f2f
 }
 
 .m_right a:hover{
@@ -36,10 +37,10 @@ h1, h2 {
 
 li {
 	float:left;
-    border-right:1px solid #000000;
-    border-left:1px solid #000000;
-    border-top:1px solid #000000;
-    border-bottom:1px solid #000000;
+    border-right:1px;
+    border-left:1px;
+    border-top:1px;
+    border-bottom:1px;
     display: inline
 }
 li a {
@@ -48,6 +49,10 @@ li a {
     text-align:center;
     /* padding:14px 16px; */
     text-decoration:none
+}
+
+.fixed-nav-bar{
+    font-size: large
 }
 
 /* #alphabet{
