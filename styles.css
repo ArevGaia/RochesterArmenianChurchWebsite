@@ -50,7 +50,7 @@ li a {
 	display:block;
     color:#ffffff;
     text-align:center;
-    padding:-3px 16px;
+    padding:0px 16px;
     text-decoration:none
 }
 
@@ -70,14 +70,14 @@ li a {
     width: 500px
 }
 
-.event-details{
+/* .event-details{
     background-color:rgb(150, 150, 190);
     width: 40%;
     height: 200px;
     overflow: visible;
     padding: 3px;
     margin-left: 3px;
-}
+} */
 
 
 /* .fixed-nav-bar { 
