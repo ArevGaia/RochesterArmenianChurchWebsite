@@ -44,7 +44,7 @@ li {
 }
 li a {
 	display:block;
-    color:#f6f3f3;
+    color:#302f2f;
     text-align:center;
     /* padding:14px 16px; */
     text-decoration:none
@@ -56,9 +56,9 @@ li a {
 
 #image{
     float: right;
-    position:fixed;
+    position:relative;
     top: 130px;
-    left: 205px;
+    left: 1205px;
 }
 
 .event_details{
