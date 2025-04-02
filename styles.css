@@ -6,9 +6,9 @@ p {
     font-family: serif;
 }
 
-img {
+/* img {
     max-width: 300px;
-}
+} */
 
 h1, h2 {
     font-family: serif;
@@ -64,7 +64,7 @@ li a {
 
 #image{
     /* float: right; */
-    position: fixed;
+    position: relative;
     top: 130px;
     left: 605px;
     width: 500px
