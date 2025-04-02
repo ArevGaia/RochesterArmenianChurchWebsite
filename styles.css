@@ -49,6 +49,29 @@ li a {
     /* padding:14px 16px; */
     text-decoration:none
 }
+
+/* #alphabet{
+    width: 250px;
+} */
+
+#image{
+    float: right;
+    position:fixed;
+    top: 130px;
+    left: 205px;
+}
+
+.event_details{
+    background-color:rgb(150, 150, 190);
+    width: 40%;
+    height: 200px;
+    overflow: auto;
+    border: 3px solid blue;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+
 /* .fixed-nav-bar { 
 	position: fixed; 
     top: 0; 
