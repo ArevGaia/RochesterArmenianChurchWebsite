@@ -65,6 +65,7 @@ li a {
 #image{
     /* float: right; */
     position: relative;
+    top: -1000px;
     left: 605px;
     width: 500px
 }
