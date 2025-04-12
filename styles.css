@@ -62,15 +62,33 @@ li a {
     width: 250px;
 } */
 
-#image{
-    /* float: right; */
-}
+
 
 column {
     float: left;
     position: relative;
     display: block;
+    margin-bottom: 3cm;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
 }
+
+#header{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.filler{
+    color: rgb(30, 108, 147);
+}
+
+.gal{
+    /* margin-bottom: 5cm;
+    margin-right: 5cm; */
+    /* padding: 5px; */
+}
+
+
 
 /* .event-details{
     background-color:rgb(150, 150, 190);
