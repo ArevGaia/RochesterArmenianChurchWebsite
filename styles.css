@@ -86,12 +86,14 @@ column {
     color: rgb(30, 108, 147);
 }
 
-.gal{
-    /* margin-bottom: 5cm;
-    margin-right: 5cm; */
-    /* padding: 5px; */
+.bio{
+    overflow-wrap: anywhere;
+    line-height: 2;
 }
 
+.name{
+    width:600px;
+}
 
 
 /* .event-details{
