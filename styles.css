@@ -82,6 +82,10 @@ column {
     color: rgb(30, 108, 147);
 }
 
+.filler::selection{
+    color: rgb(30, 108, 147);
+}
+
 .gal{
     /* margin-bottom: 5cm;
     margin-right: 5cm; */
