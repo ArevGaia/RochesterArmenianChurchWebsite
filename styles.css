@@ -95,6 +95,30 @@ column {
     width:600px;
 }
 
+.bio{
+    overflow-wrap: anywhere;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.announce{
+    text-align: center;
+    color: #ffffff;
+}
+
+.announcements{
+    /* text-align: center; */
+    width: 600px;
+    overflow-wrap: anywhere;
+    line-height: 2;
+    /* color: #ffffff; */
+}
+
+/* .top{
+    background-color: rgb(30, 108, 147);
+    position: sticky;
+    top: 0;
+} */
 
 /* .event-details{
     background-color:rgb(150, 150, 190);
