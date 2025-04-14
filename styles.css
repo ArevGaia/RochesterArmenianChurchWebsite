@@ -104,6 +104,7 @@ column {
 .announce{
     text-align: center;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .announcements{
@@ -112,6 +113,13 @@ column {
     overflow-wrap: anywhere;
     line-height: 2;
     /* color: #ffffff; */
+}
+
+.link{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    
 }
 
 /* .top{
