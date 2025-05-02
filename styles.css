@@ -35,12 +35,12 @@ h1, h2 {
 }
 
 .m_active{
-    border-right:1px solid #000000;
+    /* border-right:1px solid #000000;
     border-left:1px solid #000000;
     border-top:1px solid #000000;
-    border-bottom:1px solid #000000;
-    /* color: #ffffff; */
-    color: #3D3522;
+    border-bottom:1px solid #000000;  */
+    color: #ffffff;
+    background-color: #3D3522; 
 }
 
 .m_right a:hover{
@@ -53,8 +53,8 @@ li {
 	float:left;
     border-right:1px solid;
     border-left:1px solid;
-    border-top:1px;
-    border-bottom:1px;
+    border-top:1px solid;
+    border-bottom:1px solid;
     display: inline
 }
 li a {
