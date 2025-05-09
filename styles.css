@@ -16,6 +16,7 @@ p {
 
 img {
     max-width: 600px;
+    width: 100%;
 }
 
 h1, h2 {
@@ -82,9 +83,12 @@ column {
     float: left;
     position: relative;
     display: block;
-    margin-bottom: 3cm;
-    margin-left: 1.5cm;
-    margin-right: 1.5cm;
+    margin-bottom: 0px;
+    /* margin-left: 1.5 cm;
+    margin-right: 1.5 cm; */
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
 }
 
 #header{
@@ -126,13 +130,13 @@ column {
     text-decoration: none;
 }
 
-.announcements{
+/* .announcement{ */
     /* text-align: center; */
-    width: 600px;
+    /* width: 600px;
     overflow-wrap: anywhere;
-    line-height: 2;
+    line-height: 2; */
     /* color: #ffffff; */
-}
+/* } */
 
 .link{
     /* color: #ffffff; */
@@ -142,19 +146,29 @@ column {
     
 }
 
-.maps{
+.map{
     margin-top: 130px;
     float: right;
 }
 
-.event-details{
+/* .event-details{
     float: left;
     border-right: 5px solid;
     margin-top: 5px
+} */
+
+.announce-row{
+    height: 500px;
+    border-top: 3px solid;
 }
 
-.row{
-    height: 100px;
+.event-row{
+    height: 750px;
+    border-top: 3px solid;
+}
+
+.board-row{
+    height: 1000px;
     border-top: 3px solid;
 }
 
