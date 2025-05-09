@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(208, 210, 249);
-    color: #3D3522;
+    /* background-color: rgb(208, 210, 249); */
+    background-color: rgb(197, 226, 253);
+    /* color: #3D3522; */
+    color: rgb(22, 22, 121);
 }
 
 p {
