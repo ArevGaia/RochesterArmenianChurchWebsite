@@ -190,6 +190,10 @@ a{
     color: #3D3522;
 }
 
+.gallery-image{
+    border-radius: 1%;
+}
+
 /* 
 @media screen and (max-width: 600px) {
     column {
