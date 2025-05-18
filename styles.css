@@ -89,6 +89,8 @@ column {
     box-sizing: border-box;
     padding: 10px;
     width: 50%;
+    /* border-right: 3px solid; */
+    text-align: center;
 }
 
 #header{
@@ -111,6 +113,8 @@ column {
     overflow-wrap: anywhere;
     line-height: 2;
     color:#3D3522;
+    text-align: left;
+    /* border-radius: 1%; */
 }
 
 .name{
@@ -122,6 +126,7 @@ column {
     /* color: #ffffff; */
     color: #3D3522;
     text-decoration: none;
+    /* text-align: left; */
 }
 
 /* .announcement{ */
@@ -154,6 +159,7 @@ column {
 .announce-row{
     height: 500px;
     border-top: 3px solid;
+    /* text-align: left; */
 }
 
 .event-row{
@@ -173,6 +179,7 @@ column {
 .gal{
     height: 550px;
     border-top: 3px solid #FA1522;
+    text-align: center;
 }
 
 .footer {
