@@ -31,20 +31,37 @@
         <img src="Photos/Armenian Picnic 3.jpg"> -->
         <!-- img src="filepath" -->
 
-        <div class = "front-page">
-            <h2>Important Announcment</h2>
-            <p>This Friday, I'm making up an event. For more information go to <a href = "events.html" style= "text-decoration: underline">the events page</a></p>
+        
+        <div class = "contact">
+            <h2>Join our email list below!</h2>
+            <form id = "email-list">
+                <label for="fname">Email:</label><br>
+                <input type="text" id="email" name="email" value=""><br>
+                <input type="submit" value="Submit">
+            </form> 
         </div>
-
+        <div id = "result"></div>
 
         <div class="footer">
             <p>
                 <a href="https://www.instagram.com/arevlimaboudakian/"  target = "_blank"><i class="fa fa-instagram"></i> Instagram </a>
                 |
-                <a href="contact.html" target = "_blank"><i class="fa fa-envelope-open"></i>  Join our Email List!</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_kBhdAzAmrDIyB-ywOOJkwX-WYWAV9lw1cRficKCvMd1FYA/viewform?usp=sf_link" target = "_blank"><i class="fa fa-envelope-open"></i>  Join our Email List!</a>
                 |
                 <a href="https://www.facebook.com/profile.php?id=100068420466136"  target = "_blank"> <i class="fa fa-facebook"></i>Facebook</a>
             </p>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://script.google.com/macros/library/d/1_BOOj86vWjV664o8CRznEBnU71J_S3eqEfrCisLgak-Wt6EhvIZJ3_33/2"></script>
+        <script>
+            $("#email-list").on("submit", function(event){
+                event.preventDefault();
+                var $response = $("#email");
+                var response = $response.val();
+                $("#result").text("Your email is " + response);
+                emailSheetSet(response);
+            });
+    
+    </script>
     </body>
 </html>
