@@ -198,10 +198,11 @@ column {
    position: fixed;
    bottom: 0;
    width: 100%;
-   height: 25px;
+   height: 30px;
    background-color: rgb(155, 176, 196);
    text-align: center;
-   margin: 20px;
+   /* margin: 20px; */
+   font-size: 12px;
 }
 
 a{
