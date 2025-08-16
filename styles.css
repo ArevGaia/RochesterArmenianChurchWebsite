@@ -163,8 +163,9 @@ column {
 } */
 
 .announce-row{
-    height: 500px;
-    border-top: 3px solid;
+    height: 50px;
+    border-bottom: 3px solid;
+    text-align: center;
     /* text-align: left; */
 }
 
@@ -222,6 +223,18 @@ a{
     text-align: center;
     transform: translate(60%, 0%);
 
+}
+
+.real_link{
+    /* color: #ffffff; */
+    color: #3D3522;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.title{
+    text-align: center;
 }
 
 /* 
